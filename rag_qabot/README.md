@@ -1,0 +1,5 @@
+- AI RAG assistant for Quest Analytics research workflows.
+- Loads PDFs, splits text, embeds with IBM watsonx.ai.
+- Stores vectors in Chroma and retrieves relevant chunks.
+- Answers questions via LangChain QA chain and IBM Granite LLM.
+- Includes a Gradio UI for interactive PDF Q&A.
